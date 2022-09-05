@@ -18,7 +18,7 @@ const checkForm = () => {
 }
 
 const countBill = () => {
-	const newPrice = parseInt(price.value)
+	const newPrice = parseFloat(price.value)
 	const newPeople = parseInt(people.value)
 	const newTip = parseFloat(tip.value)
 
